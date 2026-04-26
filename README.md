@@ -2,14 +2,21 @@
 
 ## 📌 Overview
 
-This project demonstrates hands-on analysis of Windows Event Logs to detect potential security incidents such as failed login attempts, brute-force activity, and suspicious system behavior.
-
+This project demonstrates hands-on analysis of Windows Event Logs to detect security incidents such as failed login attempts and brute-force activity. Using Event Viewer and Log Parser Studio, login patterns were analyzed with Event IDs 4624 and 4625 to identify suspicious behavior.
 ---
 
 ## 🛠 Tools Used
 
 * Windows Event Viewer
 * Log Parser Studio
+
+---
+## How to Reproduce
+1. Open Event Viewer → Windows Logs → Security  
+2. Generate failed logins (enter wrong password multiple times)  
+3. Load logs in Log Parser Studio  
+4. Run queries from queries/ folder  
+5. Analyze pattern (4625 → 4624)
 
 ---
 
