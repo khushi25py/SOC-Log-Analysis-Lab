@@ -78,6 +78,17 @@ ORDER BY TimeGenerated DESC
 ```
 
 ---
+## 📸 Sample Output
+
+### 🔹 Failed Login Count
+![Failed Login Count](screenshots/failed_login_count.png)
+
+---
+
+### 🔹 Login Timeline Analysis
+![Login Timeline](screenshots/login_timeline_analysis.png)
+
+---
 
 ## 📊 Findings
 
